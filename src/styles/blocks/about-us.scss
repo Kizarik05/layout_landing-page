@@ -1,5 +1,15 @@
+.about{
+  margin-bottom: 104px;
+
+  @include on-tablet{
+    margin-bottom: 120px;
+  }
+
+}
+
 .about-us {
   @include page-grid;
+
   &__title {
     font-family: 'Space Mono', monospace;
     font-weight: 400;
