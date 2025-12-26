@@ -1,8 +1,8 @@
 .contacts {
-  @include pageGrid;
+  @include page-grid;
   &__form--input {
     grid-column: 1/-1;
-    font-family: 'Space Mono', monospace;
+    font-family: "Space Mono", monospace;;
     font-weight: 400;
     font-style: Regular;
     font-size: 14px;
@@ -31,7 +31,7 @@
     border-radius: 8px;
     cursor: pointer;
     color: #fff;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: "Space Grotesk", sans-serif;;
     font-weight: 700;
     font-style: Bold;
     font-size: 16px;
@@ -47,7 +47,7 @@
   &__txt {
     grid-column: 1/-1;
     &--head {
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: "Space Grotesk", sans-serif;
       font-weight: 400;
       font-style: Regular;
       font-size: 14px;
@@ -57,7 +57,7 @@
       margin-bottom: 8px;
     }
     &--value {
-      font-family: 'Space Mono', monospace;
+      font-family: "Space Mono", monospace;
       font-weight: 400;
       font-style: Regular;
       font-size: 16px;
