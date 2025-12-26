@@ -54,13 +54,11 @@
                 alt="Nothing logo"
               />
             </a>
-
             <div class="top-bar__icon">
               <a href="#" class="icon icon--phone"></a>
               <a href="#menu" class="icon icon--menu"></a>
             </div>
           </div>
-
           <div class="header__bottom">
             <h1 class="header__title">
               Bring joy back<br />
@@ -105,7 +103,7 @@
               <li class="nav__item">
                 <a
                   class="nav__link"
-                  href="#category"
+                  href="#categories"
                 >
                   Store
                 </a>
@@ -113,7 +111,7 @@
               <li class="nav__item">
                 <a
                   class="nav__link"
-                  href="#login"
+                  href="#contacts"
                 >
                   Login
                 </a>
@@ -292,7 +290,7 @@
             id="contacts"
           >
             <h2 class="contacts__section-title">Contact us</h2>
-            <form class="contacts__form" action="#">
+            <form class="contacts__form">
               <div class="contacts__form--items">
                 <input
                 class="contacts__form--input"
@@ -312,27 +310,40 @@
               <div class="contacts__form--items">
                 <textarea class="contacts__form--input contacts__input--message" placeholder="Message"></textarea>
               </div>
-              <button class="contacts__button">
-                <span>Send</span>
-                <img
-                  src="./src/images/Mice.png"
-                  alt="Mice"
-                  class="contacts__button--icon"
-                >
-              </button>
+              <button class="contacts__button" type="reset"> Send </button>
             </form>
             <div class="contacts__txt">
               <div class="contacts__txt--block">
                 <h2 class="contacts__txt--head">Phone</h2>
-                <p class="contacts__txt--value">+1 234 5555-55-55</p>
+                <a
+                  href="tel:+123455555555"
+                  class="contacts__txt--value"
+                >
+                  +1 234 5555-55-55
+                </a>
               </div>
+
               <div class="contacts__txt--block">
                 <h2 class="contacts__txt--head">Email</h2>
-                <p class="contacts__txt--value">hello@nothing.com</p>
+                <a
+                  href="mailto:hello@nothing.com"
+                  class="contacts__txt--value"
+                >
+                  hello@nothing.com
+                </a>
               </div>
+
               <div class="contacts__txt--block">
                 <h2 class="contacts__txt--head">Address</h2>
-                <p class="contacts__txt--value">400 first ave.<br>suite 700<br>Minneapolis, MN 55401</p>
+                <a
+                  href="https://maps.google.com/?q=400+first+ave+suite+700+Minneapolis+MN+55401"
+                  target="_blank"
+                  class="contacts__txt--value"
+                >
+                  400 first ave.<br>
+                  suite 700<br>
+                  Minneapolis, MN 55401
+                </a>
               </div>
             </div>
           </section>
