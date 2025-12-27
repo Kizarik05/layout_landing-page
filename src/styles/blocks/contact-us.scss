@@ -25,6 +25,7 @@
   }
 
   &__form--input {
+    background-color: #f8f8fa;
     font-family: 'Space Mono', monospace;
     font-weight: 400;
     font-style: Regular;
@@ -51,8 +52,9 @@
   }
 
   &__input--message {
-    min-height: 148px;
+    height: 148px;
     padding: 14px 16px;
+    resize: none;
   }
 
   &__button {

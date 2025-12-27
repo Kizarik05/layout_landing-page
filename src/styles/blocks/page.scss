@@ -3,16 +3,17 @@
   font-optical-sizing: auto;
   font-style: normal;
   scroll-behavior: smooth;
+  overflow-x: hidden;
   &__body {
     margin: 0;
     min-width: 320px;
+    overflow-x: hidden;
   }
   &__menu {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
-
     transition: all $effect-duration;
     opacity: 0;
     transform: translateX(-100%);
@@ -25,6 +26,8 @@
     }
   }
   &__bg {
+    display: block;
+    height: auto;
     width: 100%;
   }
 }
